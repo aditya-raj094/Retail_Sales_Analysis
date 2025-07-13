@@ -1,5 +1,5 @@
 -- SQL Retail Sales Analysis - P1
-CREATE DATABASE sql_project_p2;
+CREATE DATABASE sql_project_p1;
 
 
 -- Create TABLE
@@ -31,7 +31,7 @@ FROM retail_sales
 
 -- Data Cleaning
 SELECT * FROM retail_sales
-WHERE transactions_id IS NULL
+WHERE transaction_id IS NULL
 
 SELECT * FROM retail_sales
 WHERE sale_date IS NULL
